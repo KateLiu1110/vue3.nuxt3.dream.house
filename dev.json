@@ -1,0 +1,7 @@
+{
+  "CathaySecAuth": "",
+  "ApiHost": "",
+  "AppId": "",
+  "UsePathBase": "/",
+  "env": "dev"
+}

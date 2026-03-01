@@ -1,0 +1,18 @@
+[
+  {
+    "id": "u001",
+    "username": "demo",
+    "password": "demo123",
+    "email": "demo@example.com",
+    "name": "張大明",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=200&q=80"
+  },
+  {
+    "id": "u002",
+    "username": "kate",
+    "password": "kate123",
+    "email": "kate@example.com",
+    "name": "陳凱特",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80"
+  }
+]

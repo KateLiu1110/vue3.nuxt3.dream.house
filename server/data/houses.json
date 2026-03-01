@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "region": "北",
+    "type": "預售",
+    "name": "林口 陽光花園別墅",
+    "price": 18000000,
+    "img": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
+    "tags": ["採光極佳", "公園第一排"],
+    "layout": "3房2廳"
+  },
+  {
+    "id": 2,
+    "region": "北",
+    "type": "中古",
+    "name": "板橋 溫馨家庭房",
+    "price": 15500000,
+    "img": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+    "tags": ["生活機能", "明星學區"],
+    "layout": "2房1廳"
+  },
+  {
+    "id": 3,
+    "region": "北",
+    "type": "預售",
+    "name": "青埔 水岸樂活宅",
+    "price": 22000000,
+    "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "tags": ["高鐵特區", "水景"],
+    "layout": "4房2廳"
+  },
+  {
+    "id": 4,
+    "region": "中",
+    "type": "預售",
+    "name": "台中 綠意名邸",
+    "price": 28000000,
+    "img": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80",
+    "tags": ["豪宅聚落", "智能環保"],
+    "layout": "4房3廳"
+  },
+  {
+    "id": 5,
+    "region": "中",
+    "type": "中古",
+    "name": "西屯 沐光寓所",
+    "price": 12800000,
+    "img": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80",
+    "tags": ["近綠園道", "低公設"],
+    "layout": "3房2廳"
+  },
+  {
+    "id": 6,
+    "region": "南",
+    "type": "預售",
+    "name": "台南 南科輕旅",
+    "price": 14000000,
+    "img": "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=80",
+    "tags": ["南科首選", "潛力區"],
+    "layout": "3房2廳"
+  },
+  {
+    "id": 7,
+    "region": "南",
+    "type": "中古",
+    "name": "高雄 藝術森林特區",
+    "price": 16800000,
+    "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80",
+    "tags": ["藝文中心", "保值"],
+    "layout": "3房2廳"
+  },
+  {
+    "id": 8,
+    "region": "日本",
+    "type": "中古",
+    "name": "東京 港區景觀塔樓",
+    "price": 35000000,
+    "img": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=80",
+    "tags": ["核心地段", "高租金"],
+    "layout": "2LDK"
+  },
+  {
+    "id": 9,
+    "region": "日本",
+    "type": "中古",
+    "name": "大阪 難波樂活套房",
+    "price": 4500000,
+    "img": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=80",
+    "tags": ["高投報", "觀光熱區"],
+    "layout": "1R"
+  }
+]
