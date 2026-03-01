@@ -40,10 +40,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     // 用於加密的密鑰
     tokenSecret: 'EYei4YfWTf84AkpmQIa2G4eEbgyMya2J',
-    app: {
-      // 應用的基礎 URL
-      baseURL: setting.UsePathBase // (like as .NET Core UsePathBase)
-    },
     ssr: true, // 或者設定為 false (SPA 模式)
     nitro: {
       preset: 'github-pages'
@@ -141,8 +137,9 @@ export default defineNuxtConfig({
 
   // 配置應用的 HTML 頁面頭部
   app: {
+    baseURL: setting.UsePathBase, // (like as .NET Core UsePathBase)
     head: {
-      title: 'BPS預算系統',
+      title: '夢幻小屋AI房仲平台',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         // { name: 'description', content: '' },
