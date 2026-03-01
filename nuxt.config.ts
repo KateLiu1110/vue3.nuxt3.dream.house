@@ -40,10 +40,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     // 用於加密的密鑰
     tokenSecret: 'EYei4YfWTf84AkpmQIa2G4eEbgyMya2J',
-    ssr: true, // 或者設定為 false (SPA 模式)
-    nitro: {
-      preset: 'github-pages'
-    },
     // 其他應用相關的配置
     CathaySecAuth: setting.CathaySecAuth,
     ApiHost: setting.ApiHost,
@@ -91,9 +87,12 @@ export default defineNuxtConfig({
 
   // 配置 Nitro 引擎
   nitro: {
+    preset: 'github-pages',
     prerender: {
       // 設置預渲染的併發數量
-      concurrency: 12
+      concurrency: 12,
+      crawlLinks: true,
+      routes: ['/']
     }
   },
 

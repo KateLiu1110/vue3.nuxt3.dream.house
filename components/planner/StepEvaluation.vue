@@ -2,6 +2,8 @@
 import { inject, type Ref } from 'vue'
 import { TrendingUp, ShieldCheck } from 'lucide-vue-next'
 import { CircleCheckFilled, Download, PieChart, TrophyBase } from '@element-plus/icons-vue'
+import LineChart from '~/components/components/charts/LineChart.vue'
+import PieChartComponent from '~/components/components/charts/PieChart.vue'
 
 const store = usePlannerStore()
 
@@ -65,9 +67,7 @@ const showModal = () => {
         </p>
         
         <div class="h-[300px] w-full">
-          <div class="text-center text-slate-400 py-20">
-            圖表區域 (需安裝 chart 套件)
-          </div>
+          <LineChart :data="store.projectionData" />
         </div>
       </div>
 
@@ -76,6 +76,10 @@ const showModal = () => {
         <h3 class="text-xl font-black text-slate-800 mb-6 flex items-center gap-2">
           <ElIcon class="text-blue-500"><PieChart /></ElIcon> 購屋成本結構
         </h3>
+        
+        <div class="h-[280px] w-full mb-6">
+          <PieChartComponent :data="store.costsPieData" />
+        </div>
         
         <div class="space-y-4">
           <div v-for="item in store.costsPieData" :key="item.name" class="flex items-center justify-between p-4 rounded-xl bg-slate-50">

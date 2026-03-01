@@ -60,6 +60,7 @@
     "yup": "^1.4.0"
   },
   "dependencies": {
+    "echarts": "^5.5.0",
     "handsontable": "^15.2.0",
     "lucide-vue-next": "^0.575.0",
     "nuxt-icon": "^1.0.0-beta.7"
