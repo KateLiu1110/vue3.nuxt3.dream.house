@@ -2,6 +2,6 @@
   "CathaySecAuth": "",
   "ApiHost": "",
   "AppId": "",
-  "UsePathBase": "/",
+  "UsePathBase": "/home",
   "env": "dev"
 }

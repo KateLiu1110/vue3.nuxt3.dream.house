@@ -44,6 +44,10 @@ export default defineNuxtConfig({
       // 應用的基礎 URL
       baseURL: setting.UsePathBase // (like as .NET Core UsePathBase)
     },
+    ssr: true, // 或者設定為 false (SPA 模式)
+    nitro: {
+      preset: 'github-pages'
+    },
     // 其他應用相關的配置
     CathaySecAuth: setting.CathaySecAuth,
     ApiHost: setting.ApiHost,
