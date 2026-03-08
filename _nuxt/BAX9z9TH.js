@@ -1,0 +1,2 @@
+import"./CmP1zgAg.js";import{a}from"./BRpsqvk_.js";import{aB as o,g as m,aC as u,ad as n}from"./DJzykoU-.js";const l=o(async(r,d)=>{let s,t;const e=m();if(e.isAuthenticated||([s,t]=u(()=>e.restoreAuth()),await s,t()),r.meta.requiresAdmin&&!e.isAdmin)return a.error("您没有访问此页面的权限"),n("/planner");const i=r.meta.permission;if(i&&!e.hasPermission(i))return a.error("您没有访问此页面的权限"),n("/planner")});export{l as default};
+//# sourceMappingURL=BAX9z9TH.js.map
