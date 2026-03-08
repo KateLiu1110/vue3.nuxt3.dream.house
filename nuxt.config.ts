@@ -20,12 +20,10 @@ export default defineNuxtConfig({
 
   ssr: false,
   app: {
-    baseURL: '/vue3.nuxt3.dream.house/'
+    baseURL: '/nuxt3.vue3.dream.house/'
   },
-
   runtimeConfig: {
     tokenSecret: 'EYei4YfWTf84AkpmQIa2G4eEbgyMya2J',
-
     CathaySecAuth: setting.CathaySecAuth,
     ApiHost: setting.ApiHost,
     AppId: setting.AppId,
