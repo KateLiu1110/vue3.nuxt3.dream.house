@@ -10,11 +10,12 @@
     "rndir": "renamer --find \"ncc-server\" --replace \"server\" \"./.output/**\"",
     "build": "nuxt build",
     "dev": "nuxt dev --host",
-    "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "runProdForWin": "$env:PORT='3455'; node .\\.output\\server\\index.mjs",
-    "release": "release-it"
+    "release": "release-it",
+    "generate": "nuxt generate",
+    "deploy": "npm run generate && gh-pages -d .output/public"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.18.1",
@@ -37,6 +38,7 @@
     "eslint": "^9.3.0",
     "exceljs": "^4.4.0",
     "form-data": "^4.0.1",
+    "gh-pages": "^6.3.0",
     "h3-formidable": "^1.0.0",
     "imask": "^7.6.1",
     "jsonwebtoken": "^9.0.2",
