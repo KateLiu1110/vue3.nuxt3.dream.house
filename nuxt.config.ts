@@ -20,7 +20,7 @@ export default defineNuxtConfig({
 
   ssr: false,
   app: {
-    baseURL: '/nuxt3.vue3.dream.house/'
+    baseURL: '/vue3.nuxt3.dream.house/'
   },
   runtimeConfig: {
     tokenSecret: 'EYei4YfWTf84AkpmQIa2G4eEbgyMya2J',
