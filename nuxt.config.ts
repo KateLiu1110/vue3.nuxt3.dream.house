@@ -17,10 +17,20 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
 
   spaLoadingTemplate: true,
-
   ssr: false,
+  css: ['~/assets/css/global.css'],
   app: {
-    baseURL: '/vue3.nuxt3.dream.house/'
+    baseURL: env==='prod'?'/nuxt3.vue3.dream.house/':'/',
+    buildAssetsDir: '/static/',
+    head: {
+    title: '夢幻小屋AI房仲平台',
+    meta: [
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { 'http-equiv': 'Cache-Control', content: 'no-cache, no-store, must-revalidate' },
+      { 'http-equiv': 'Pragma', content: 'no-cache' },
+      { 'http-equiv': 'Expires', content: '0' }
+    ]
+  }
   },
   runtimeConfig: {
     tokenSecret: 'EYei4YfWTf84AkpmQIa2G4eEbgyMya2J',
@@ -94,18 +104,5 @@ export default defineNuxtConfig({
     }
   },
 
-  css: ['~/assets/css/global.css'],
 
-  app: {
-    baseURL: setting.UsePathBase,
-    head: {
-      title: '夢幻小屋AI房仲平台',
-      meta: [
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { 'http-equiv': 'Cache-Control', content: 'no-cache, no-store, must-revalidate' },
-        { 'http-equiv': 'Pragma', content: 'no-cache' },
-        { 'http-equiv': 'Expires', content: '0' }
-      ]
-    }
-  }
 })

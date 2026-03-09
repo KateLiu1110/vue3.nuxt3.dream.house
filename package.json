@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt3.vue3.project.version",
   "type": "module",
   "version": "0.0.128",
   "private": true,
@@ -16,6 +16,13 @@
     "release": "release-it",
     "generate": "nuxt generate",
     "deploy": "npm run generate && gh-pages -d .output/public"
+  },
+  "dependencies": {
+    "echarts": "^5.5.0",
+    "handsontable": "^15.2.0",
+    "lucide-vue-next": "^0.575.0",
+    "nuxt-icon": "^1.0.0-beta.7",
+    "unstorage": "^1.17.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.18.1",
@@ -60,11 +67,5 @@
     "winston-daily-rotate-file": "^5.0.0",
     "xlsx": "^0.18.5",
     "yup": "^1.4.0"
-  },
-  "dependencies": {
-    "echarts": "^5.5.0",
-    "handsontable": "^15.2.0",
-    "lucide-vue-next": "^0.575.0",
-    "nuxt-icon": "^1.0.0-beta.7"
   }
 }

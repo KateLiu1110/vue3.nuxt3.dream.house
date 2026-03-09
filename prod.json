@@ -2,6 +2,6 @@
   "CathaySecAuth": "",
   "ApiHost": "",
   "AppId": "",
-  "UsePathBase": "/vue3.nuxt3.dream.house/",
+  "UsePathBase": "/nuxt3.vue3.dream.house/",
   "env": "prod"
 }
