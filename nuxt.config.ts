@@ -11,8 +11,6 @@ const env = (process.env.NUXT3_ENV || 'dev').trim()
 const jsonPath = resolve(`./${env}.json`)
 const setting = JSON.parse(readFileSync(jsonPath, 'utf-8')) as ProjectSetting
 
-console.log('UsePathBase:', setting.UsePathBase)
-
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
 
