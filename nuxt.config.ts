@@ -17,9 +17,7 @@ export default defineNuxtConfig({
   spaLoadingTemplate: true,
 
   ssr: false,
-  app: {
-    baseURL: '/nuxt3.vue3.dream.house/'
-  },
+
   runtimeConfig: {
     tokenSecret: 'EYei4YfWTf84AkpmQIa2G4eEbgyMya2J',
     CathaySecAuth: setting.CathaySecAuth,
@@ -96,6 +94,7 @@ export default defineNuxtConfig({
 
   app: {
     baseURL: setting.UsePathBase,
+    buildAssetsDir: '/_nuxt/',
     head: {
       title: '夢幻小屋AI房仲平台',
       meta: [
