@@ -134,7 +134,6 @@ nuxt3.vue3.public.account/
 ### 狀態管理
 - **Pinia 2.2.2** - Vue 官方推薦的狀態管理庫
 - **@pinia/nuxt 0.5.3** - Pinia Nuxt 模組
-- **@pinia-plugin-persistedstate/nuxt 1.2.1** - Pinia 持久化插件
 
 ### 數據處理
 - **Handsontable 15.2.0** - 強大的數據表格組件
