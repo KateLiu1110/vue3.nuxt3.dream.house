@@ -19,6 +19,9 @@ export default defineNuxtConfig({
   spaLoadingTemplate: true,
 
   ssr: false,
+  app: {
+    baseURL: '/vue3.nuxt3.dream.house/'
+  },
 
   runtimeConfig: {
     tokenSecret: 'EYei4YfWTf84AkpmQIa2G4eEbgyMya2J',
