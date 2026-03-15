@@ -93,8 +93,8 @@ export default defineNuxtConfig({
   css: ['~/assets/css/global.css'],
 
   app: {
-    baseURL: setting.UsePathBase,
-    buildAssetsDir: '/_nuxt/',
+    baseURL: env === 'prod' ? '/vue3.nuxt3.dream.house/' : '/',
+    buildAssetsDir: 'static/',
     head: {
       title: '夢幻小屋AI房仲平台',
       meta: [
